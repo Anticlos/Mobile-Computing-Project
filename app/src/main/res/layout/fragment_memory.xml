@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:text="@string/memory_task_desc"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content"
+        android:id="@+id/sequence"
+        android:hint="@string/input_text"
+        app:counterEnabled="true"
+        app:counterMaxLength="5"
+        app:hintTextColor="@color/colorPrimary"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:counterTextColor="@color/grey"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sequenceInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="5"
+            android:inputType="number"
+            android:textColor="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/prettyBlue"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/prettyBlue"
+        android:text="@string/continue_text"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/prettyBlue"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>

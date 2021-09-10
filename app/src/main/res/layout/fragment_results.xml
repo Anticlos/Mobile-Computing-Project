@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+    <!-- REACTION TASK -->
+    <TextView
+        android:id="@+id/reaction"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"
+        android:text="@string/reaction_task_title"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/misses"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/averageDecisionReaction"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textSize="16sp"
+        />
+    <!-- MEMORY TASK -->
+    <TextView
+        android:id="@+id/memory"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"
+        android:text="@string/memory_task_title"
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        />
+
+    <TextView
+        android:id="@+id/incorrect"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/averageDecisionMemory"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textSize="16sp"
+        />
+    <!-- WALKING TASK -->
+    <TextView
+        android:id="@+id/walking"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"
+        android:text="@string/walking_task_title"
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        />
+
+    <TextView
+        android:id="@+id/xaxis"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/yaxis"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/prediction"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="32dp"
+        />
+
+</LinearLayout>
